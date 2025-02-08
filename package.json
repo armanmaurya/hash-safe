@@ -1,0 +1,39 @@
+{
+  "name": "hash-safe",
+  "version": "0.0.1",
+  "description": "HashSafe is a lightweight and efficient JavaScript library for secure password hashing, generation, and validation. It provides a simple API to create strong passwords, hash them using industry-standard algorithms, and verify user credentials effortlessly.",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest --coverage",
+    "test:watch": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/armanmaurya/hash-safe.git"
+  },
+  "author": "Arman Maurya",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/armanmaurya/hash-safe/issues"
+  },
+  "homepage": "https://github.com/armanmaurya/hash-safe#readme",
+  "keywords": [
+    "password",
+    "hashing",
+    "bcrypt",
+    "argon2",
+    "security",
+    "authentication",
+    "password-generator",
+    "validation",
+    "crypto",
+    "secure"
+  ],
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.5",
+    "typescript": "^5.7.3"
+  }
+}
