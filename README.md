@@ -1,7 +1,3 @@
-Here’s a description for your **HashSafe** GitHub repository:  
-
----
-
 ### 🔒 HashSafe – Secure Password Generation & Validation  
 **HashSafe** is a lightweight and efficient JavaScript library for **secure password hashing, generation, and validation**. It provides a simple API to create strong passwords, hash them using industry-standard algorithms, and verify user credentials effortlessly.  
 
@@ -29,5 +25,3 @@ console.log(generatePassword(12)); // Random strong password
 ```
 
 ### 🔐 Stay Safe with HashSafe!  
-
-Would you like any modifications? 😊
