@@ -1,6 +1,6 @@
 {
   "name": "hash-safe",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "HashSafe is a lightweight and efficient JavaScript library for secure password hashing, generation, and validation. It provides a simple API to create strong passwords, hash them using industry-standard algorithms, and verify user credentials effortlessly.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
