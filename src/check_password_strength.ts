@@ -33,7 +33,7 @@ export function checkPasswordStrength(password: string): number {
   }
 
   // Pattern detection (penalties)
-  if (/(\w)\1{2,}/.test(password)) strength -= 10; // Repeated characters
+  if (/(\w)\1{2,}/.test(password)) strength -= 15; // Repeated characters
   if (/1234|2345|3456|4567|5678|6789/.test(password)) strength -= 15; // Sequential numbers
   if (/abcd|bcde|cdef|defg|efgh/.test(password)) strength -= 15; // Sequential letters
   if (/qwerty|asdf|zxcv|poiuy|lkjh/.test(password)) strength -= 10; // Keyboard patterns
